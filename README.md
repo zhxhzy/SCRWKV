@@ -75,19 +75,14 @@ pip install -r requirements.txt
 
 ## 📁 Dataset Preparation
 
-Please place the datasets under the `datasets/` directory.
+Please create a new `data/` directory to store the datasets.
 
 The expected dataset structure is:
 
-- `datasets/`
+- `data/`
   - `dataset_name_1/`
-    - `train/`
-    - `val/`
-    - `test/`
+
   - `dataset_name_2/`
-    - `train/`
-    - `val/`
-    - `test/`
 
 You may need to modify the dataset path in the configuration or training script before running experiments.
 
