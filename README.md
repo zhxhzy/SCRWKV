@@ -1,8 +1,8 @@
 <h1 align="center">SCRWKV</h1>
 
-<div align="center">
+<!-- <div align="center">
   <img src="figures/LOGO.png" width="220">
-</div>
+</div> -->
 
 <h3 align="center">
 [ICML 2026] SCRWKV: Ultra-Compact Structure-Calibrated Vision-RWKV for Topological Crack Segmentation
@@ -39,7 +39,6 @@
 
 ## 🔥 Overview
 
-This repository contains the official implementation of:
 
 
 
@@ -191,7 +190,7 @@ The main model components and utilities are organized as follows:
 ## 🌍 Real-world Deployment
 
 <div align="center">
-  <img src="figures/real" width="850">
+  <img src="figures/real.gif" width="850">
 </div>
 
 ---
@@ -201,7 +200,7 @@ The main model components and utilities are organized as follows:
 Some qualitative visualization results are shown below.
 
 <div align="center">
-  <img src="figures/visual.pdf" width="850">
+  <img src="figures/visual.png" width="850">
 </div>
 
 > **Note:** Please replace the image path above with the exact filename in your `figures/` folder.
