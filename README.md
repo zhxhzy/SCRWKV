@@ -22,7 +22,7 @@
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg">
   </a>
-  <a href="https://github.com/你的用户名/你的仓库名">
+  <a href="https://github.com/zhxhzy/SCRWKV">
     <img src="https://img.shields.io/badge/Code-GitHub-black">
   </a>
 </p>
@@ -45,7 +45,7 @@ This repository contains the official implementation of:
 > International Conference on Machine Learning, 2026
 
 <div align="center">
-  <img src="figures/Overview.png" width="850">
+  <img src="figures/Overview.pdf" width="850">
 </div>
 
 ---
@@ -186,7 +186,7 @@ The main model components and utilities are organized as follows:
 ## 🌍 Real-world Deployment
 
 <div align="center">
-  <img src="figures/Real-world_Deployment.gif" width="850">
+  <img src="figures/real" width="850">
 </div>
 
 ---
@@ -196,7 +196,7 @@ The main model components and utilities are organized as follows:
 Some qualitative visualization results are shown below.
 
 <div align="center">
-  <img src="figures/Visualization_on_publicly_available_你的完整文件名.png" width="850">
+  <img src="figures/visual.pdf" width="850">
 </div>
 
 > **Note:** Please replace the image path above with the exact filename in your `figures/` folder.
