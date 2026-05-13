@@ -58,16 +58,16 @@ Achieving pixel-level accurate segmentation of structural cracks across diverse 
 
 Create the environment:
 
+
 ```bash
-conda create -n scrwkv python=3.10 -y
+conda create -n scrwkv python=3.9 -y
 conda activate scrwkv
+pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 
+pip install -U openmim
+mim install mmcv-full==1.7.2
 ```
 
-Install dependencies:
 
-```bash
-pip install -r requirements.txt
-```
 
 
 
