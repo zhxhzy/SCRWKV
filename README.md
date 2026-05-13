@@ -66,7 +66,7 @@ pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2
 pip install -U openmim
 mim install mmcv-full==1.7.2
 ```
-
+Simply install the required dependencies according to the project requirements.
 
 
 
@@ -101,9 +101,7 @@ You can also specify your own arguments, for example:
 ```bash
 python main.py \
   --dataset your_dataset \
-  --model scrwkv \
-  --batch-size 8 \
-  --epochs 100
+  --
 ```
 
 Please modify the command according to the arguments defined in `main.py`.
