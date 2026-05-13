@@ -43,13 +43,11 @@
 
 
 <div align="center">
-  <!-- 外层用 <a> 标签指向你的 PDF 文件 -->
-  <a href="figures/Overview.pdf">
-    <!-- 里层用 <img> 标签显示转好的预览图 -->
+
+
     <img src="figures/Overview.png" width="850" alt="Overview">
-  </a>
-  <br>
-  <sup>*Click the image to view the high-resolution PDF*</sup>
+
+
 </div>
 
 Achieving pixel-level accurate segmentation of structural cracks across diverse scenarios remains a formidable challenge. Existing methods face significant bottlenecks in balancing crack topology modeling with computational efficiency, often failing to reconcile high segmentation quality with low resource demands. To address these limitations, we propose the Ultra-Compact Structure-Calibrated Vision RWKV (SCRWKV), a network that achieves high-precision modeling via a novel Structure-Field Encoder (SFE) backbone while maintaining linear complexity. The SFE integrates the Adaptive Multi-scale Cascaded Modulator (AMCM) to enhance texture representation and utilizes the Structure-Calibrated Insight Unit (SCIU) as its core engine. Specifically, the SCIU employs the Geometry-guided Bidirectional Structure Transform (GBST) to capture topological correlations and integrates the Dynamic Self-Calibrating Decay (DSCD) into Dy-WKV to suppress noise propagation. Furthermore, we introduce a lightweight Cross-Scale Harmonic Fusion (CSHF) decoder to achieve precise feature aggregation. Systematic evaluations on multiple benchmarks characterized by complex textures and severe interference demonstrate that SCRWKV, with only 1.22M parameters, significantly outperforms SOTA methods. Achieving an F1 score of 0.8428 and mIoU of 0.8512, the model confirms its robust potential for efficient real-world deployment.
@@ -146,13 +144,9 @@ The results will be saved in the `results/` directory.
 Some qualitative visualization results are shown below.
 
 <div align="center">
-  <!-- 外层用 <a> 标签指向你的 PDF 文件 -->
-  <a href="figures/visual.pdf">
-    <!-- 里层用 <img> 标签显示转好的预览图 -->
+
     <img src="figures/visual.png" width="850" alt="Overview">
-  </a>
-  <br>
-  <sup>*Click the image to view the high-resolution PDF*</sup>
+
 </div>
 
 Visual comparison of typical crack segmentation results on the TUT dataset against 10 SOTA methods. Red boxes highlight
