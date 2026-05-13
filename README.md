@@ -146,8 +146,15 @@ The results will be saved in the `results/` directory.
 Some qualitative visualization results are shown below.
 
 <div align="center">
-  <img src="figures/visual.png" width="850">
+  <!-- 外层用 <a> 标签指向你的 PDF 文件 -->
+  <a href="figures/visual.pdf">
+    <!-- 里层用 <img> 标签显示转好的预览图 -->
+    <img src="figures/visual.png" width="850" alt="Overview">
+  </a>
+  <br>
+  <sup>*Click the image to view the high-resolution PDF*</sup>
 </div>
+
 Visual comparison of typical crack segmentation results on the TUT dataset against 10 SOTA methods. Red boxes highlight
 critical details, and green boxes mark misidentified regions.
 
@@ -158,7 +165,7 @@ critical details, and green boxes mark misidentified regions.
 ## 📌 Results
 
 
----
+
 
 ## 📜 Citation
 
