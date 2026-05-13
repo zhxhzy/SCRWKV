@@ -41,8 +41,7 @@
 
 This repository contains the official implementation of:
 
-> **SCRWKV: Ultra-Compact Structure-Calibrated Vision-RWKV for Topological Crack Segmentation**  
-> International Conference on Machine Learning, 2026
+
 
 <div align="center">
   <!-- 外层用 <a> 标签指向你的 PDF 文件 -->
