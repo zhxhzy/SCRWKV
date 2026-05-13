@@ -52,40 +52,9 @@
   <sup>*Click the image to view the high-resolution PDF*</sup>
 </div>
 
----
-
-## 🧩 Project Structure
-
-The repository is organized as follows:
-
-- `datasets/`: dataset directory
-- `eval/`: evaluation scripts and related files
-- `figures/`: figures used in this README
-  - `LOGO.png`
-  - `Overview.png`
-  - `Real-world_Deployment.gif`
-  - `Visualization_on_publicly_available_*.png`
-- `mmcls/`: classification-related modules
-- `models/`: model implementations
-- `results/`: experimental results
-- `util/`: utility functions
-- `engine.py`: training and inference engine
-- `eval_compute.py`: metric computation script
-- `main.py`: main training script
-- `test.py`: testing and inference script
-- `LICENSE`: open-source license
-- `README.md`: project documentation
-
----
+Achieving pixel-level accurate segmentation of structural cracks across diverse scenarios remains a formidable challenge. Existing methods face significant bottlenecks in balancing crack topology modeling with computational efficiency, often failing to reconcile high segmentation quality with low resource demands. To address these limitations, we propose the Ultra-Compact Structure-Calibrated Vision RWKV (SCRWKV), a network that achieves high-precision modeling via a novel Structure-Field Encoder (SFE) backbone while maintaining linear complexity. The SFE integrates the Adaptive Multi-scale Cascaded Modulator (AMCM) to enhance texture representation and utilizes the Structure-Calibrated Insight Unit (SCIU) as its core engine. Specifically, the SCIU employs the Geometry-guided Bidirectional Structure Transform (GBST) to capture topological correlations and integrates the Dynamic Self-Calibrating Decay (DSCD) into Dy-WKV to suppress noise propagation. Furthermore, we introduce a lightweight Cross-Scale Harmonic Fusion (CSHF) decoder to achieve precise feature aggregation. Systematic evaluations on multiple benchmarks characterized by complex textures and severe interference demonstrate that SCRWKV, with only 1.22M parameters, significantly outperforms SOTA methods. Achieving an F1 score of 0.8428 and mIoU of 0.8512, the model confirms its robust potential for efficient real-world deployment.
 
 ## 🛠️ Installation
-
-Clone this repository:
-
-```bash
-git clone https://github.com/你的用户名/你的仓库名.git
-cd 你的仓库名
-```
 
 Create the environment:
 
@@ -100,13 +69,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-If there is no `requirements.txt` yet, please install the core dependencies manually according to your environment.
 
-For example:
-
-```bash
-pip install torch torchvision numpy opencv-python tqdm matplotlib scikit-learn
-```
 
 ---
 
@@ -132,7 +95,7 @@ You may need to modify the dataset path in the configuration or training script 
 
 ## 🚀 Training
 
-Run the training script:
+You can modify the parameters in the main.py file and run it with the following command:
 
 ```bash
 python main.py
@@ -154,7 +117,7 @@ Please modify the command according to the arguments defined in `main.py`.
 
 ## 📊 Evaluation
 
-Run evaluation with:
+You can also use checkpoints for inference with the following command:
 
 ```bash
 python test.py
@@ -174,18 +137,8 @@ The results will be saved in the `results/` directory.
 
 ## 🏗️ Model
 
-The model implementations are located in the `models/` directory.
 
-The main model components and utilities are organized as follows:
 
-- `models/`
-- `util/`
-- `mmcls/`
-- `engine.py`
-- `main.py`
-- `test.py`
-
----
 
 ## 🌍 Real-world Deployment
 
@@ -202,6 +155,8 @@ Some qualitative visualization results are shown below.
 <div align="center">
   <img src="figures/visual.png" width="850">
 </div>
+Visual comparison of typical crack segmentation results on the TUT dataset against 10 SOTA methods. Red boxes highlight
+critical details, and green boxes mark misidentified regions.
 
 > **Note:** Please replace the image path above with the exact filename in your `figures/` folder.
 
@@ -209,12 +164,6 @@ Some qualitative visualization results are shown below.
 
 ## 📌 Results
 
-| Method | Dataset | Metric 1 | Metric 2 | Metric 3 |
-|---|---|---:|---:|---:|
-| Baseline | Dataset A | 00.00 | 00.00 | 00.00 |
-| SCRWKV | Dataset A | **00.00** | **00.00** | **00.00** |
-
-More results can be found in the `results/` directory.
 
 ---
 
