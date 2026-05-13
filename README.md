@@ -45,7 +45,13 @@ This repository contains the official implementation of:
 > International Conference on Machine Learning, 2026
 
 <div align="center">
-  <img src="figures/Overview.pdf" width="850">
+  <!-- 外层用 <a> 标签指向你的 PDF 文件 -->
+  <a href="figures/Overview.pdf">
+    <!-- 里层用 <img> 标签显示转好的预览图 -->
+    <img src="figures/Overview.png" width="850" alt="Overview">
+  </a>
+  <br>
+  <sup>*Click the image to view the high-resolution PDF*</sup>
 </div>
 
 ---
