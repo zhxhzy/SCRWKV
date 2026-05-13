@@ -186,7 +186,7 @@ Please see the [LICENSE](LICENSE) file for more details.
 
 This work stands on the shoulders of the following open-source projects, and we sincerely thank their authors for making it possible:
 
-* [SCSegamba](https://github.com/Karl1109/SCSegamba) [[Paper]](https://arxiv.org/abs/xxxx.xxxxx)
-* [Vision-RWKV](https://github.com/OpenGVLab/Vision-RWKV) [[Paper]](https://arxiv.org/abs/2403.02308)
-* [DeepCrack](https://github.com/yhlleo/DeepCrack) [[Paper]](https://yhlleo.github.io/papers/DeepCrack-Neurocomputing2019.pdf)
+* [SCSegamba](https://github.com/Karl1109/SCSegamba) 
+* [Vision-RWKV](https://github.com/OpenGVLab/Vision-RWKV) 
+* [DeepCrack](https://github.com/yhlleo/DeepCrack) 
 * [mmclassification](https://github.com/open-mmlab/mmclassification)
