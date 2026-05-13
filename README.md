@@ -144,9 +144,7 @@ The results will be saved in the `results/` directory.
 Some qualitative visualization results are shown below.
 
 <div align="center">
-
-    <img src="figures/visual.png" width="850" alt="Overview">
-
+    <img src="figures/visual.png" width="850" alt="visual">
 </div>
 
 Visual comparison of typical crack segmentation results on the TUT dataset against 10 SOTA methods. Red boxes highlight
