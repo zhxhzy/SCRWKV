@@ -186,11 +186,12 @@ Comparison with 10 state-of-the-art methods across 4 datasets.
 If you find this work useful, please cite our paper:
 
 ```bibtex
-@inproceedings{scrwkv2026,
+@inproceedings{zhang2026scrwkv,
   title={SCRWKV: Ultra-Compact Structure-Calibrated Vision-RWKV for Topological Crack Segmentation},
-  author={Author A and Author B and Author C},
-  booktitle={International Conference on Machine Learning},
-  year={2026}
+  author={Zhang, Hanxu and Jia, Chen and Liu, Hui and Cheng, Xu and Shi, Fan and Chen, Shengyong},
+  booktitle={Proceedings of the 43rd International Conference on Machine Learning},
+  year={2026},
+  organization={PMLR}
 }
 ```
 
