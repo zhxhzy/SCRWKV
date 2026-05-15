@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/你的arxiv编号">
-    <img src="https://img.shields.io/badge/arXiv-你的编号-b31b1b.svg">
+    <img src="https://img.shields.io/badge/arXiv-2605.14926-b31b1b.svg">
   </a>
   <!-- <a href="你的论文链接">
     <img src="https://img.shields.io/badge/Paper-ICML%202026-blue">
