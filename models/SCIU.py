@@ -248,7 +248,7 @@ class VRWKV_SpatialMix(nn.Module):
                  channel_gamma=1 / 4, shift_pixel=1, init_mode='fancy',
                  key_norm=False):
         super().__init__()
-        self.use_dynamic_scan = True  # 默认关闭，按需开启
+        self.use_dynamic_scan = True  
         self.dynamic_w_conv = nn.Conv2d(n_embd, n_embd, kernel_size=1, bias=False)
 
         self._scan_cache = None
