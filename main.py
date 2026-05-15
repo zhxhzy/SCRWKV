@@ -22,8 +22,7 @@ from util.logger import get_logger
 from tqdm import tqdm
 from mmengine.optim.scheduler.lr_scheduler import PolyLR
 
-##--0.33--0.67：0.84  0.67-0.33： 0.84  0.75-0.25-0.84  0.83-0.17-0.84 0.8-0.2-0.84  0.5-0.5-0.84
-# 0.17-0,83-0.84  0.2-0.8- 0.84   0.25-0.75=0.84
+
 def get_args_parser():
     parser = argparse.ArgumentParser('SCRWKV', add_help=False)
 
