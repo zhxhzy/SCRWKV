@@ -33,7 +33,7 @@
 
 - **2026-05-01:** 🎉 We are delighted to announce that our paper has been accepted by **ICML 2026**! 🖐😭🤚
 - **2026-05-12:** 📦 The code has been publicly released.
-- **2026-XX-XX:** 📝 The preprint has been posted on arXiv.
+- **2026-05-15:** 📝 The preprint has been posted on arXiv.
 
 ---
 
