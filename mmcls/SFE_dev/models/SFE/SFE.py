@@ -171,7 +171,7 @@ class SFE(BaseBackbone):
                 else:
                     norm_layer = nn.Identity()
                 self.add_module(f'norm_layer{i}', norm_layer)
-                                    # 把midchannel换一换试试
+                     
         self.conv256to128 = BottConv(in_channels=256, out_channels=128, mid_channels=64, kernel_size=1, stride=1, padding=0)
         self.conv256to64 = BottConv(in_channels=256, out_channels=64, mid_channels=32, kernel_size=1, stride=1, padding=0)
         self.conv256to32 = BottConv(in_channels=256, out_channels=32, mid_channels=16, kernel_size=1, stride=1, padding=0)
@@ -226,7 +226,7 @@ class SFE(BaseBackbone):
 
         x = self.AMCM(x)
 
-        x = x.reshape(B, C, H * W).permute(0, 2, 1)  # 回到 [B,L,C]
+        x = x.reshape(B, C, H * W).permute(0, 2, 1)  #  [B,L,C]
 
 
 
