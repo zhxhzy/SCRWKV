@@ -201,7 +201,6 @@ If you find this work useful, please cite our paper:
 
 This project is released under the Apache 2.0 License.
 
-Please see the [LICENSE](LICENSE) file for more details.
 
 ---
 
